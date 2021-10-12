@@ -1,0 +1,9 @@
+
+/*Because ng-cloak not working as expected */
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak,.x-ng-cloak {
+  display: none !important;
+}
+
+.form-inline input, .form-inline select {
+   margin-bottom: 5px;
+}
